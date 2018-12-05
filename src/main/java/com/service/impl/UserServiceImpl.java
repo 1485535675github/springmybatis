@@ -14,7 +14,6 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public Person selectUser(int id) {
-        System.out.println("ceshi");
         return userMapper.selectUser(id);
     }
 }
