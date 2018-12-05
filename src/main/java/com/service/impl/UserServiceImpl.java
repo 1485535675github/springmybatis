@@ -14,7 +14,8 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public Person selectUser(int id) {
-        System.out.println("就是测试解决冲突5555555555");
+        System.out.println("就是测试解决冲突");
+        System.out.println("-----------");
         return userMapper.selectUser(id);
     }
 }
